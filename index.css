@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'kaisotai';
+    src: url('Kaisotai-Next-UP-B.ttf') format('truetype');
+}
+
+.titlesticky {
+    background: transparent;
+    height: 150vmin;
+}
+
+#pagetitle {
+    font-family: 'kaisotai';
+    font-size: 10vmin;
+    text-shadow: 0vmin 0vmin 1vmin #3bbeff;
+    color: #3bbeff;
+    -webkit-text-stroke: 0.02em #fff;
+    text-align: center;
+    position: sticky;
+    top: 10vmin;
+}
+
+a {
+    font-family: 'kaisotai';
+    font-size: 5vmin;
+    text-shadow: 0vmin 0vmin 1vmin #3bbeff;
+    color: #3bbeff;
+    -webkit-text-stroke: 0.02em #fff;
+    text-align: center;
+    border: 0.75vmin solid;
+    padding: 1vmin;
+    width: 70vmin;
+    text-decoration: none;
+    display: block;
+    margin: 5vmin auto;
+    transition: color 0.1s;
+}
+
+#shekwasha:hover {
+    text-shadow: 0vmin 0vmin 1vmin #b1ff3b;
+    color: #b1ff3b;
+}
+
+body {
+    height: 220vh;
+    margin: 0;
+    background-color: black;
+}
